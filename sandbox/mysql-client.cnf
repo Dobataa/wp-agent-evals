@@ -1,0 +1,4 @@
+# MySQL/MariaDB client settings for the wpcli container only.
+# The database runs on a private local Docker network, so TLS is not needed.
+[client]
+skip-ssl
